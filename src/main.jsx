@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
   <ErrorBoundary FallbackComponent={ErrorMessage}>
-    <BrowserRouter basename="/games-react-app-v3">
+    <BrowserRouter basename="/games-react-app">
         <App />
     </BrowserRouter>
   </ErrorBoundary>
